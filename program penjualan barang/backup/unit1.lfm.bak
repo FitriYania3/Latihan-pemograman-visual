@@ -1,38 +1,37 @@
 object Form1: TForm1
-  Left = 697
-  Height = 709
-  Top = 169
-  Width = 849
+  Left = 1003
+  Height = 567
+  Top = 268
+  Width = 679
   Caption = 'PERHITUNGAN BARANG'
-  ClientHeight = 709
-  ClientWidth = 849
-  DesignTimePPI = 120
+  ClientHeight = 567
+  ClientWidth = 679
   Font.CharSet = ANSI_CHARSET
-  Font.Height = -24
+  Font.Height = -19
   Font.Name = 'Dubai'
   Font.Pitch = fpVariable
   Font.Quality = fqDraft
   Font.Style = [fsBold]
   LCLVersion = '2.2.6.0'
   object Label1: TLabel
-    Left = 230
-    Height = 40
-    Top = 10
-    Width = 421
+    Left = 184
+    Height = 32
+    Top = 8
+    Width = 337
     Alignment = taCenter
     AutoSize = False
     Caption = 'PERHITUNGAN PENJUALAN BARANG'
     ParentColor = False
   end
   object Label2: TLabel
-    Left = 30
-    Height = 40
-    Top = 100
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 80
+    Width = 105
     AutoSize = False
     Caption = 'Kode Barang'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -40,14 +39,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 30
-    Height = 40
-    Top = 170
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 136
+    Width = 105
     AutoSize = False
     Caption = 'Quantity'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -55,14 +54,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 30
-    Height = 40
-    Top = 240
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 192
+    Width = 105
     AutoSize = False
     Caption = 'Nama Barang'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -70,14 +69,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label5: TLabel
-    Left = 30
-    Height = 40
-    Top = 310
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 248
+    Width = 105
     AutoSize = False
     Caption = 'Harga Satuan'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -85,14 +84,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label6: TLabel
-    Left = 30
-    Height = 40
-    Top = 380
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 304
+    Width = 105
     AutoSize = False
     Caption = 'Sub Total'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -100,14 +99,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label7: TLabel
-    Left = 30
-    Height = 40
-    Top = 450
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 360
+    Width = 105
     AutoSize = False
     Caption = 'Diskon'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -115,14 +114,14 @@ object Form1: TForm1
     ParentFont = False
   end
   object Label8: TLabel
-    Left = 30
-    Height = 40
-    Top = 520
-    Width = 131
+    Left = 24
+    Height = 32
+    Top = 416
+    Width = 105
     AutoSize = False
     Caption = 'Total Bayar'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai Medium'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -130,17 +129,17 @@ object Form1: TForm1
     ParentFont = False
   end
   object CBKode: TComboBox
-    Left = 232
-    Height = 42
-    Top = 90
-    Width = 212
+    Left = 186
+    Height = 35
+    Top = 72
+    Width = 170
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
     Font.Style = [fsBold]
-    ItemHeight = 34
+    ItemHeight = 27
     Items.Strings = (
       'A01'
       'B02'
@@ -151,13 +150,13 @@ object Form1: TForm1
     TabOrder = 0
   end
   object EQTY: TEdit
-    Left = 231
-    Height = 40
-    Top = 170
-    Width = 214
+    Left = 185
+    Height = 32
+    Top = 136
+    Width = 171
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -166,13 +165,13 @@ object Form1: TForm1
     TabOrder = 1
   end
   object ENama: TEdit
-    Left = 231
-    Height = 40
-    Top = 240
-    Width = 214
+    Left = 185
+    Height = 32
+    Top = 192
+    Width = 171
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -181,13 +180,13 @@ object Form1: TForm1
     TabOrder = 2
   end
   object EHarga: TEdit
-    Left = 232
-    Height = 40
-    Top = 310
-    Width = 212
+    Left = 186
+    Height = 32
+    Top = 248
+    Width = 170
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -196,13 +195,13 @@ object Form1: TForm1
     TabOrder = 3
   end
   object ESubTotal: TEdit
-    Left = 232
-    Height = 40
-    Top = 380
-    Width = 212
+    Left = 186
+    Height = 32
+    Top = 304
+    Width = 170
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -211,13 +210,13 @@ object Form1: TForm1
     TabOrder = 4
   end
   object EDiskon: TEdit
-    Left = 232
-    Height = 40
-    Top = 450
-    Width = 212
+    Left = 186
+    Height = 32
+    Top = 360
+    Width = 170
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -226,13 +225,13 @@ object Form1: TForm1
     TabOrder = 5
   end
   object ETotal: TEdit
-    Left = 232
-    Height = 40
-    Top = 520
-    Width = 212
+    Left = 186
+    Height = 32
+    Top = 416
+    Width = 170
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -241,13 +240,13 @@ object Form1: TForm1
     TabOrder = 6
   end
   object btnHitung: TButton
-    Left = 30
-    Height = 44
-    Top = 600
-    Width = 128
+    Left = 24
+    Height = 35
+    Top = 480
+    Width = 102
     Caption = 'Hitung'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -257,13 +256,13 @@ object Form1: TForm1
     TabOrder = 7
   end
   object btnUlang: TButton
-    Left = 231
-    Height = 44
-    Top = 600
-    Width = 128
+    Left = 185
+    Height = 35
+    Top = 480
+    Width = 102
     Caption = 'Ulang'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
@@ -273,13 +272,13 @@ object Form1: TForm1
     TabOrder = 8
   end
   object btnKeluar: TButton
-    Left = 420
-    Height = 44
-    Top = 600
-    Width = 128
+    Left = 336
+    Height = 35
+    Top = 480
+    Width = 102
     Caption = 'Keluar'
     Font.CharSet = ANSI_CHARSET
-    Font.Height = -20
+    Font.Height = -16
     Font.Name = 'Dubai'
     Font.Pitch = fpVariable
     Font.Quality = fqDraft
